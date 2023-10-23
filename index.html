@@ -1,51 +1,69 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Boty</title>
-	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<title>Dámské běžecké boty</title>
+	<link href="https://fonts.googleapis.com/css?family=Rubik:400,500" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
-	<!-- levá (zelená) polovina -->
-		<img src="images/nike.svg" alt="logo Nike" width="65" height="24">
+	<div class="zbozi">
 
-		<p>
-			Zrychli tempo,<br>
-			soustřeď se na rychlost!
-		</p>
+		<div class="vizual">
 
-		<img src="images/bota.png" alt="fotografie Nike Air Zoom Pegasus 33" width="415" height="295">
+			<div class="logo">
+				<img src="images/nike.svg" alt="logo Nike" width="65" height="24">
+			</div>
 
-		<div>2450&nbsp;Kč</div>
-		<div>Prodloužená záruka 3 roky</div>
-	<!-- konec levé poloviny -->
+			<p class="slogan">
+				Zrychli tempo,<br>
+				soustřeď se na rychlost!
+			</p>
+
+			<div class="bota">
+				<img src="images/bota.png" alt="fotografie Nike Air Zoom Pegasus 33" width="415" height="295">
+			</div>
+
+			<div class="cenovka">
+				<div class="cena">2450&nbsp;Kč</div>
+				<div class="zaruka">Prodloužená záruka 3 roky</div>
+			</div>
+
+		</div><!-- konec .vizual -->
 
 
-	<!-- pravá (bílá) polovina -->
-		<h1>Nike Air Zoom Pegasus 33</h1>
 
-		<p>Dámská běžecká bota</p>
+		<div class="detaily">
 
-		<p>
-			Nike Air Zoom Pegasus 33 dokonale padne, dodá pocit rychlosti a má pružné tlumení, které ti umožní zrychlit tempo a soustředit se na rychlost.
-		</p>
+			<h1 class="nazev">Nike Air Zoom Pegasus 33</h1>
 
-		<h2>Velikost</h2>
+			<p class="produkt">Dámská běžecká bota</p>
 
-		<ul>
-			<li>35</li>
-			<li>36</li>
-			<li>37</li>
-			<li>38</li><!-- tato velikost bude zvýrazněná jako vybraná -->
-			<li>39</li>
-			<li>40</li>
-		</ul>
+			<p class="popis">
+				Nike Air Zoom Pegasus 33 dokonale padne, dodá pocit rychlosti a má pružné tlumení, které ti umožní zrychlit tempo a soustředit se na rychlost.
+			</p>
 
-		<a href="#">Do košíku</a>
-	<!-- konec pravé poloviny -->
+			<h2 class="parametr">Velikost</h2>
+
+			<ul class="velikosti">
+				<li>35</li>
+				<li>36</li>
+				<li>37</li>
+				<li class="vybrana">38</li>
+				<li>39</li>
+				<li>40</li>
+			</ul>
+
+			<div class="akce">
+				<a class="tlacitko" href="#">Do košíku</a>
+			</div>
+
+		</div><!-- konec .detaily -->
+
+
+	</div><!-- konec .zbozi -->
+
 
 </body>
 </html>
